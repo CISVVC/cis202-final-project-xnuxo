@@ -1,4 +1,4 @@
-#One quick thing Note:
+# One quick thing Note:
 
 I tried my hardest to learn and use Qt. However, due to the fact I couldnt seem to get QEventLoops working (due to the fact GUI applications should run seperate "threadding" I guess and I couldnt use sleep() or equivalent to stop execution of a for loop based on signal from button). This prevented me from even beginning to work with a GUI as the program halted before a GUI could appear (due to eventloop).
 
@@ -6,5 +6,5 @@ However, I had already coded the acutal work for a QtConsoleApplication. (Though
 
 Why event loops why couldn't they just make for loops simpler. Smh.
 
-##Program Info
+## Program Info
 Anyways, place the stuff in REQUIRED into where the Tutor progam says (I didnt want to create files onyour machine and QDir only knows generic locations so I used the Build Dir). Once the tutor program isrun it will generate a grades.txt (or append to it). This and the questions.qsv must be 
